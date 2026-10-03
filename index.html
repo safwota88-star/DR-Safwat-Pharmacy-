@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>صيدلية دكتور صفوت — أدوية ومستحضرات تجميل واستشارات طبية</title>
+<meta name="description" content="صيدلية دكتور صفوت القوني: أدوية أصلية، مستحضرات تجميل، استشارات طبية وتوصيل سريع. للطلب والاستفسار: 01550785667">
+<meta name="theme-color" content="#0c3a7d">
+<meta property="og:title" content="صيدلية دكتور صفوت">
+<meta property="og:description" content="لأن صحتك تهمنا .. نقدم لك أفضل خدمة دوائية">
+<meta property="og:image" content="images/doctor.jpg">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body><svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="lg" viewBox="0 0 64 64"><path d="M6 24h38a19 19 0 0 1-38 0z" fill="#0c3a7d"/><path d="M30 26c-8 6 8 10 0 16s8 8 0 14" stroke="#0c3a7d" stroke-width="5" fill="none" stroke-linecap="round"/><path d="M38 52c6-12 16-14 22-14-2 10-10 18-22 14z" fill="#2aa7d8"/></symbol></svg>
+<div class="top"><div class="wrap"><span>صيدلية د/ صفوت القوني — خدمة وتوصيل للمنازل</span><span>📞 الصيدلية: <a href="tel:01550785667">01550785667</a> &nbsp;|&nbsp; الدكتور: <a href="tel:01550785667">01550785667</a></span></div></div>
+<header><div class="wrap">
+<a href="#top" class="logo"><svg width="40" height="40" viewBox="0 0 64 64" aria-hidden="true"><use href="#lg"/></svg><span style="line-height:1.15">صيدلية<br>دكتور صفوت</span></a>
+<nav><a href="#top">الرئيسية</a><a href="#medicine">الأدوية</a><a href="#cosmetics">التجميل</a><a href="#consult">استشارة طبية</a><a href="#reviews">التقييمات</a><a href="#support">الدعم</a><a href="#contact">تواصل</a></nav>
+<button class="cartbtn" id="openCart" aria-label="فتح السلة">🛒 السلة (<span id="cnt">0</span>)</button>
+</div></header>
+
+<div class="hero2" id="top"><div class="wrap">
+<div class="hpic"><img src="images/doctor.jpg" width="560" height="513" alt="الدكتور صفوت القوني"><span class="sig">دكتور صفوت</span></div>
+<div class="htxt"><div class="brand"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="#lg"/></svg><h1>صيدلية<br>دكتور صفوت</h1></div>
+<div class="tag">لأن صحتك تهمنا .. نقدم لك أفضل خدمة دوائية</div><div class="line"></div>
+<div class="feats"><div class="ft"><i><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#1257b8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg></i>أدوية أصلية<br>ومضمونة</div>
+<div class="ft"><i><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#1257b8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 6h12v10H2zM14 9h4l3 3v4h-7"/><circle cx="6" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></svg></i>خدمة سريعة<br>ومريحة</div>
+<div class="ft"><i><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#1257b8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12V4h8l10 10-8 8z"/><circle cx="7.5" cy="8.5" r="1.3"/></svg></i>أسعار مناسبة<br>للجميع</div>
+<div class="ft"><i><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#1257b8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.5-7 8-7s8 3 8 7"/></svg></i>استشارة دوائية<br>مستمرة</div></div></div>
+</div></div>
+<div class="sband"><div class="wrap"><div class="sbox"><input id="q" type="search" placeholder="اكتب اسم الدواء أو المادة الفعالة…" aria-label="بحث"><button class="btn" id="sgo" type="button">ابحث عن دواءك</button></div></div></div>
+<div class="cats"><div class="wrap"><h2>تصفح أقسام الصيدلية</h2><div class="tiles" id="tiles"></div></div></div>
+<div class="strip">معاً نحو صحة أفضل</div>
+
+<section id="shop"><div class="wrap">
+<h2>المنتجات</h2><p class="sub">الأسعار والكميات تحدَّث باستمرار. اختر القسم أو ابحث بالاسم.</p>
+<div class="tools"><div class="tabs" id="tabs">
+<button class="tab" aria-pressed="true" data-c="all">الكل</button><button class="tab" aria-pressed="false" data-c="med">MEDICINE — الأدوية</button><button class="tab" aria-pressed="false" data-c="cos">COSMETICS — التجميل</button></div></div>
+<div id="medicine"></div>
+<div class="grid" id="grid"></div>
+<div id="cosmetics"></div>
+</div></section>
+
+<section class="alt" id="consult"><div class="wrap two">
+<div><h2>استشارة طبية</h2><p class="sub">اكتب حالتك وسيرد عليك الدكتور على واتساب. للحالات الطارئة اتصل بالإسعاف 123.</p>
+<div class="svc"><div><b>استفسار عن دواء</b>الجرعة والتداخلات والآثار الجانبية</div><div><b>متابعة حالة</b>سكر، ضغط، حساسية…</div><div><b>العناية بالبشرة</b>اختيار الروتين المناسب</div></div></div>
+<form class="box" id="cform" onsubmit="return false"><label for="cn">الاسم</label><input class="f" id="cn" required>
+<label for="ca">العمر</label><input class="f" id="ca" type="number" min="0" max="120">
+<label for="ct">نوع الاستشارة</label><select class="f" id="ct"><option>استفسار عن دواء</option><option>متابعة حالة مرضية</option><option>العناية بالبشرة والجمال</option><option>أخرى</option></select>
+<label for="cm">وصف الحالة</label><textarea class="f" id="cm" rows="4" required></textarea>
+<p><button class="btn pri" id="csend" type="button">إرسال للدكتور عبر واتساب</button></p></form>
+</div></section>
+
+<section id="reviews"><div class="wrap two">
+<div><h2>تقييمات العملاء</h2><p class="sub" id="avg"></p><div class="box" id="rlist"></div></div>
+<form class="box" onsubmit="return false"><h3 style="margin-top:0">أضف تقييمك</h3>
+<label for="rn">الاسم</label><input class="f" id="rn">
+<label>التقييم</label><div class="stars" id="stars" role="radiogroup" aria-label="التقييم"></div>
+<label for="rt">رأيك</label><textarea class="f" id="rt" rows="3"></textarea>
+<p><button class="btn pri" id="rsend" type="button">نشر التقييم</button></p></form>
+</div></section>
+
+<section class="alt" id="support"><div class="wrap two">
+<div><h2>الدعم الفني</h2><p class="sub">مشكلة في الطلب أو الموقع؟ نحن هنا.</p>
+<details><summary>كيف أطلب دواء؟</summary><p>أضف المنتجات إلى السلة ثم اضغط «إرسال الطلب» ليصلنا على واتساب ونؤكد معك.</p></details>
+<details><summary>هل الأدوية بوصفة طبية متاحة؟</summary><p>نعم، ويلزم إرسال صورة الروشتة عند التأكيد.</p></details>
+<details><summary>ما مدة التوصيل؟</summary><p>غالباً خلال ساعات داخل نطاق التوصيل، ويُؤكَّد وقتياً عند الطلب.</p></details>
+<details><summary>كيف أستبدل أو أرجع منتجاً؟</summary><p>تواصل معنا خلال 24 ساعة وسنساعدك وفق سياسة الصيدلية.</p></details></div>
+<form class="box" onsubmit="return false"><h3 style="margin-top:0">أرسل مشكلتك</h3>
+<label for="sn">الاسم</label><input class="f" id="sn"><label for="sm">المشكلة</label><textarea class="f" id="sm" rows="4"></textarea>
+<p><button class="btn pri" id="ssend" type="button">إرسال للدعم</button> <a class="btn ghost" style="color:var(--pri)" href="tel:01550785667">اتصال</a></p></form>
+</div></section>
+
+<section id="contact"><div class="wrap"><h2>تواصل معنا</h2>
+<div class="svc"><div><b>رقم الصيدلية</b><a href="tel:01550785667">01550785667</a></div><div><b>رقم الدكتور صفوت القوني</b><a href="tel:01550785667">01550785667</a></div><div><b>واتساب</b><a href="https://wa.me/201550785667" target="_blank" rel="noopener">راسلنا الآن</a></div><div><b>مواعيد العمل</b>يومياً من 9 ص حتى 12 م</div></div></div></section>
+
+<footer><div class="wrap"><div><b>صيدلية د/ صفوت القوني</b><br>الأدوية ومستحضرات التجميل والاستشارات الطبية</div><div>المعلومات هنا للإرشاد ولا تغني عن استشارة الطبيب.<br>© <span id="yr"></span> جميع الحقوق محفوظة</div></div></footer>
+<a class="float" href="https://wa.me/201550785667" target="_blank" rel="noopener">واتساب</a>
+<div class="toast" id="toast"></div>
+
+<div class="drawer" id="drawer"><div class="panel"><div class="row"><h3 style="margin:0">سلة الطلبات</h3><button class="tab" id="closeCart">إغلاق</button></div>
+<div id="items"></div><div class="row"><b>الإجمالي</b><b class="price" id="tot">0 ج.م</b></div>
+<label for="an">الاسم</label><input class="f" id="an"><label for="ad">العنوان / رقم الهاتف</label><input class="f" id="ad">
+<button class="btn pri" id="order">إرسال الطلب عبر واتساب</button></div></div>
+
+<script src="data/products.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
